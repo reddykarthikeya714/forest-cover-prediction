@@ -1,0 +1,13 @@
+# Core data stack
+pandas>=2.0
+numpy>=1.24
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+
+# Modelling
+scikit-learn>=1.3
+
+# Notebook runtime
+jupyter>=1.0

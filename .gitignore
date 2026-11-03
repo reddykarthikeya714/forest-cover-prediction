@@ -1,0 +1,31 @@
+# Data — not committed, download separately
+data/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.ipynb_env
+
+# Saved models and artefacts
+models/
+*.pkl
+*.joblib
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
