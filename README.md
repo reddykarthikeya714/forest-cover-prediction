@@ -1,45 +1,35 @@
 # Forest Cover Type Prediction
 
-A machine-learning classification project that predicts the forest cover type from cartographic and environmental features of the Roosevelt National Forest, Colorado.
+A machine-learning classification project that predicts forest cover categories from cartographic and environmental measurements.
 
 ## Project overview
+The objective is to classify observations into one of seven forest cover types using the available features from the Roosevelt National Forest dataset.
 
-The objective is to classify each observation into one of **7 forest cover classes** using the available cartographic attributes.
+## Approach
+1. Inspect the dataset and understand feature distributions.
+2. Perform exploratory data analysis to identify patterns and data-quality issues.
+3. Prepare the features and apply scaling where appropriate.
+4. Train and compare six classification algorithms.
+5. Tune a Random Forest model and evaluate its performance.
 
-## Workflow
+## Results
+The project notebook reports **86.9% accuracy** for the tuned Random Forest evaluation. This result is specific to the evaluation setup used in the notebook and is not a guarantee of performance on unseen data.
 
-- Exploratory data analysis (EDA) to understand the dataset and feature distributions.
-- Data preparation and feature scaling.
-- Training and comparison of six classification algorithms.
-- Hyperparameter tuning of a Random Forest model.
-- Model evaluation and comparison.
-
-## Result
-
-The tuned Random Forest model achieved **86.9% accuracy** in the reported evaluation. Results depend on the data split and evaluation setup; this is not a guarantee of performance on new data.
-
-## Tech stack
-
-- Python
-- Jupyter Notebook
+## Tools
+- Python and Jupyter Notebook
 - Pandas and NumPy
-- Matplotlib / Seaborn
+- Matplotlib and Seaborn
 - Scikit-learn
 
-## Repository contents
-
-The project notebook contains the analysis, model training, and evaluation workflow.
-
-## How to run
-
-1. Clone or download this repository.
-2. Open the notebook in Jupyter Notebook or JupyterLab.
-3. Install the required Python libraries if they are not already available.
-4. Run the notebook cells in order and make sure the dataset path matches your local setup.
-
 ## Skills demonstrated
+Exploratory data analysis · Data preparation · Feature scaling · Supervised learning · Classification · Random Forest · Hyperparameter tuning · Model evaluation
 
-Exploratory data analysis · Data preprocessing · Feature scaling · Classification · Model comparison · Random Forest · Model evaluation
+## Run the project
+1. Clone or download this repository.
+2. Open the notebook in Jupyter Notebook, JupyterLab, or Google Colab.
+3. Install the libraries imported by the notebook.
+4. Update the dataset path to match your local environment.
+5. Run the notebook cells in order.
 
 ---
-Created as a learning project in Data Science and Machine Learning.
+*Portfolio project | Data Science and Machine Learning*
